@@ -32,5 +32,5 @@ function updateAppointment(id, interview) {
 }
 
 server.listen(PORT, () => {
-  console.log(`Listening on port ${PORT} of ip ${PGHOST} in ${ENV} mode.`);
+  console.log(`Listening on port ${PORT} in ${ENV} mode.`);
 });
